@@ -1,12 +1,7 @@
-# My Personal Portfolio 🍦
+I made my Yummy Personal Portfolio!~(￣▽￣)~
+I hand-drew the dripping pink syrup and sprinkle wallpaper myself, which gave the entire site a unique, sweet aesthetic. (. ❛ ᴗ ❛.)
 
-Hi! Welcome to my portfolio website.
-
-## ✨ Features & What's Inside
-
- I drew the dripping sprinkle background wallpaper myself!
-- **3 Sections:** 
-  - **About Me:** Who I am and what I love.
-  - **What I Do:** Game development, cybersecurity, graphic design, and AI.
-  - **Projects & Contact:** Links to my work and ways to connect.
-
+I added three sections:
+1. About me
+2. My interests
+3. My contact, like GitHub.
