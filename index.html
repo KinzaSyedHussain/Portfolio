@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -6,25 +7,38 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header class="banner">
+        
+        <header class="top-header">
+             <div class="logo">Kinza Syed</div>
+             <nav class="nav-links">
+                <a href="#" onclick="event.preventDefault(); showSection('about')">About</a>
+                <a href="#" onclick="event.preventDefault(); showSection('interests')">interests</a>
+                <a href="#" onclick="event.preventDefault(); showSection('projects')">Contact</a>
+            </nav>
+        </header>
+
+        <div class="banner">
+            <img src="pic - Copy.png" alt="Corner Detail" class="corner-pic">
+            <img src="pic - Copy.png" alt="Left corner detail" class="left-corner-pic">
+            <img src="pic - Copy2.png" alt="Left corner" class="left-corner">
             <div class="banner-overlay">
                 <h1> Kinza Syed </h1>
                 <p class="tagline">Tech Enthusiast • Game developer • Cyber Security • Graphics designer</p>
             </div>
-        </header>
+        </div>
 
-        <main class="container"></main>
+        <main class="container">
 
-        <section id="about" class="card">
+        <section id="about" class="section-content active">
             <h2> About Me</h2>
             <p>
                 Hi! I am <strong>Kinza Syed</strong>. I'm a computer enthusiast who loves exploring everything in tech!
-                From building interactive games and making digital art, to diving into cybersecurity and testing out coll AI tolls.
-                I know it's a lot of different things, but I enjor all of it!
+                From building interactive games and making digital art, to diving into cybersecurity and testing out cool AI tools.
+                I know it's a lot of different things, but I enjoy all of it!
             </p>
         </section>
 
-        <section id="interests" class="card">
+        <section id="interests" class="section-content">
             <h2> What I Do</h2>
             <div class="skills">
                 <div class="skillbox">
@@ -42,7 +56,7 @@
             </div>
         </section>
 
-        <section id="projects" class="card">
+        <section id="projects" class="section-content">
             <h2> Project & Contact</h2>
             <p>Check out my latest creation or get in touch</p>
             <div class="links">
@@ -55,6 +69,8 @@
     <footer>
         <p>Made with 💖 by Kinza Syed</p>
     </footer>
+
+    <script src="script.js"></script>
         
     </body>
     </html>
