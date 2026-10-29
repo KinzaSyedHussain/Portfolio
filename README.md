@@ -7,5 +7,8 @@ I hand-drew the dripping pink syrup and sprinkle wallpaper myself, which gave th
 I added three sections:
 1. About me
 2. My interests
-3. My contact, like GitHub.
+3. My contact and project.
+
+Want to try?
+https://kinzasyedhussain.github.io/Portfolio/
 
