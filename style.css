@@ -20,8 +20,10 @@ body {
     background-color: var(--bg-cream);
     color: var(--text-dark);
     line-height: 1.6;
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    margin: 0;
 }
 
 .top-header {
@@ -131,6 +133,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 0 20px;
+    flex: 1;
 }
 
 
@@ -138,6 +141,7 @@ body {
     display: none !important;
     width: 100%;
     padding: 20px 0;
+    left: 20%;
 }
 
 
@@ -203,8 +207,29 @@ body {
 
 footer {
     text-align: center;
-    padding: 30px 20px;
+    padding: 20px 20px;
     font-size: 1rem;
     color: #887483;
+    width: 100%;
+
+}
+
+#effect {
+    font-size: 3.2rem;
+    color: #e05275;
+    margin-bottom: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    min-height: 3.8rem;
+}
+
+#effect::after {
+    content: '|';
+    animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% { opacity: 0;}
 }
 
